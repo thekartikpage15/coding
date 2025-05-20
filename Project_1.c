@@ -6,7 +6,7 @@
 
 int main(){
 
-    printf("Welcome to the guessing number game!");
+    printf("Welcome to the guessing number game! \n");
 
     int guess, random;
     srand(time(0));
