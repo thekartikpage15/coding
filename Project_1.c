@@ -13,8 +13,6 @@ int main(){
     random = (rand() % 100) +1;
     int count = 0;
 
-
-
     do{
         printf("Enter the number between (1-100): ");
         scanf("%d", &guess);
@@ -27,14 +25,12 @@ int main(){
         }else{
             printf("You have guessed the correct number in %d counts \n", count);
         }
-
-
-
-        
+  
     } while(guess != random);
+
+    printf("Thanks for playing!\nCode by Kartik Ramesh Page");
 
 
 
     return 0;
 }
-printf("Thanks for playing!\nCode by Kartik Ramesh Page");
