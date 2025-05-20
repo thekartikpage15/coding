@@ -37,3 +37,4 @@ int main(){
 
     return 0;
 }
+printf("Thanks for playing!\nCode by Kartik Ramesh Page")
